@@ -1,0 +1,19 @@
+.login {
+    height: 75px;
+    background-color: #BBB5BF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.login-area {
+    margin-top: 25px;
+}
+
+label {
+    padding-left: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
