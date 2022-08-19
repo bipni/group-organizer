@@ -9,7 +9,10 @@
 
 .login-area {
     margin-top: 25px;
-    display: inline-block;
+}
+
+.login-label {
+    padding-left: 10px;
 }
 
 .registration {
@@ -25,7 +28,9 @@
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+}
+
+.reg-lab-in{
+    display: block;
+    margin: 20px 0px 20px 0px;
 }

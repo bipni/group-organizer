@@ -9,25 +9,48 @@ function Start() {
 
                 <div className="login-area">
                     <form>
-                        <label>Email: <input type="text" name="email"/></label>
-                        <label>Password: <input type="password" name="password"/></label>
-                        <input type="submit" value="Submit"/>
+                        <label className="login-label">Email: <input type="text" name="email"/></label>
+                        <label className="login-label">Password: <input type="password" name="password"/></label>
+                        <span className="login-label"><input type="submit" value="Login"/></span>
                     </form>
                 </div>
             </div>
 
             <div className="registration">
-                <h3>Registration</h3>
+                <h2>Registration</h2>
 
                 <div className="registration-area">
                     <form>
-                        <label className="reg-lab-in">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+                        <span className="reg-lab-in">
+                            {/* <label>Email: </label> */}
+                            <input type="text" name="email" placeholder="Email"/>
+                        </span>
+                        <span className="reg-lab-in">
+                            {/* <label>Username: </label> */}
+                            <input type="text" name="username" placeholder="Username"/>
+                        </span>
+                        <span className="reg-lab-in">
+                            {/* <label>Name: </label> */}
+                            <input type="text" name="name" placeholder="Name"/>
+                        </span>
+                        <span className="reg-lab-in">
+                            {/* <label>Mobile: </label> */}
+                            <input type="text" name="mobile" placeholder="Mobile"/>
+                        </span>
+                        <span className="reg-lab-in">
+                            {/* <label>Password: </label> */}
+                            <input type="password" name="password" placeholder="Password"/>
+                        </span>
+                        <span className="reg-lab-in">
+                            {/* <label>Retype Password: </label> */}
+                            <input type="password" name="repassword" placeholder="Retype Password"/>
+                        </span>
+                        
 
-                        <label className="reg-lab-in">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-  
-                        <input type="submit" value="Submit"/>
+                        <span>
+                            <input type="submit" value="Submit"/>
+                            <input type="button" value="Cancel"/>
+                        </span>
                     </form>
                 </div>
             </div>
