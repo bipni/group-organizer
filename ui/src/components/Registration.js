@@ -27,7 +27,7 @@ function Registration() {
                             <input className="reg-input" type="text" name="rpassword" placeholder="Re-enter Password"/>
 
                             <span className="btn">
-                                <input type="submit" value="Submit"/>
+                                <input type="submit" value="Register"/>
                                 <input type="reset" value="Cancel"/>
                             </span>
                     </form>
