@@ -1,6 +1,6 @@
 .registration {
-    background-image: url("../../public/images/group-background-image.jpg");
-    background-color: #CBE2DF;
+    background-image: url('../../public/images/group-background-image.jpg');
+    background-color: #cbe2df;
     height: 600px;
     background-position: center;
     background-size: cover;

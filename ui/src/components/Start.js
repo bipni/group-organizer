@@ -1,9 +1,7 @@
 import Login from './Login';
-import Registration from './Registration'
-
+import Registration from './Registration';
 
 function Start() {
-
     return (
         <div>
             <Login />

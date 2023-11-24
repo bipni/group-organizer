@@ -1,6 +1,6 @@
 .login {
     height: 75px;
-    background-color: #BBB5BF;
+    background-color: #bbb5bf;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
